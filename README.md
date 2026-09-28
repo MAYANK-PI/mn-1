@@ -79,8 +79,8 @@ This executes the Vitest tests in `tests/counter.test.ts` which verify:
 - Privacy guarantees (private inputs never exposed)
 
 ## Initial Idea
-[LEAVE PLACEHOLDER — I will fill this in manually]
+[   A private decentralized exchange (DEX) component for Midnight Network that enables confidential token swaps. Trade amounts and participant
+  identities remain hidden from public view, while zero-knowledge proofs verify transaction validity and prevent double-spending without
+  exposing sensitive data on-chain.]
 
-## Screenshots
-  - Screenshot 2026-09-28 005345.png
-  - Screenshot 2026-09-28 084249.png
+
