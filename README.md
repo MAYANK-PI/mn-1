@@ -78,3 +78,4 @@ This executes the Vitest tests in `tests/counter.test.ts` which verify:
 [LEAVE PLACEHOLDER — I will fill this in manually]
 
 ## Screenshots
+screenshots/Screenshot 2026-09-28 005345.png
