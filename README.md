@@ -6,6 +6,10 @@
 |----------|-------------------------------------------------------------------|
 | Preview  | 6f640fda5cafe21e75ee16a80942b460a2a4608a34a284616e8cccb8e3bea513  |
 
+## wallet Address
+ mn_addr_preview13echt6ksptdhxvnq5m6dm3pc6dhdnk2rhduun27stdrfuvpnarhqk7nyf5
+
+
 ## What This Does
 This contract implements a counter that can be incremented, set to a specific value, or reset to zero. It demonstrates how Midnight Network handles public state (visible on-chain) and private state (kept confidential) while allowing users to prove correct state transitions without revealing sensitive information.
 
