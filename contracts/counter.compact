@@ -1,0 +1,42 @@
+pragma language_version >= 0.23;
+
+import CompactStandardLibrary;
+
+// Public ledger state - visible on blockchain
+export ledger counter: Field;
+
+// Private state - not visible on blockchain
+export var lastValue: Field;
+
+// Circuit to increment the counter
+export circuit increment(): [] {
+    // Read current counter value from public ledger
+    let current = counter;
+
+    // Compute next value
+    let next = current + 1;
+
+    // Update public ledger
+    counter = next;
+
+    // Store last value in private state (for demonstration)
+    lastValue = current;
+}
+
+// Circuit to set counter to a specific value
+export circuit setValue(newValue: Field): [] {
+    // Store old value in private state before updating
+    lastValue = counter;
+
+    // Update public ledger
+    counter = newValue;
+}
+
+// Circuit to reset counter to zero
+export circuit reset(): [] {
+    // Store old value in private state
+    lastValue = counter;
+
+    // Reset public ledger
+    counter = 0;
+}
