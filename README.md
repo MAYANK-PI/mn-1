@@ -2,10 +2,9 @@
 > A simple counter contract demonstrating state management and privacy principles on Midnight Network
 
 ## Contract Address
-| Network  | Address                          |
-|----------|----------------------------------|
-| Preview  | [PASTE ADDRESS AFTER DEPLOY]     |
-| Preprod  | [PASTE ADDRESS AFTER DEPLOY]     |
+| Network  | Address                                                           |
+|----------|-------------------------------------------------------------------|
+| Preview  | 6f640fda5cafe21e75ee16a80942b460a2a4608a34a284616e8cccb8e3bea513  |
 
 ## What This Does
 This contract implements a counter that can be incremented, set to a specific value, or reset to zero. It demonstrates how Midnight Network handles public state (visible on-chain) and private state (kept confidential) while allowing users to prove correct state transitions without revealing sensitive information.
@@ -79,4 +78,3 @@ This executes the Vitest tests in `tests/counter.test.ts` which verify:
 [LEAVE PLACEHOLDER — I will fill this in manually]
 
 ## Screenshots
-[LEAVE PLACEHOLDER — I will add compile output and contract address screenshots]
